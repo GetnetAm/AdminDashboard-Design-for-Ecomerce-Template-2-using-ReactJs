@@ -50,6 +50,9 @@ function UserList() {
               <Link to={"/user/" + params.row.id}>
                 <button className="userListEdit">Edit</button>
               </Link>
+               {/* <Link to={"/user/" }>
+                <button className="userListEdit">Edit</button>
+              </Link> */}
               <DeleteIcon
                 className="userListDelete"
                 onClick={() => handleDelete(params.row.id)}
