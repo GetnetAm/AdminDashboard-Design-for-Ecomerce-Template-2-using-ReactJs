@@ -2,3 +2,8 @@
     display: flex;
 }
 
+
+.link_part{
+    text-decoration: none;
+    color: inherit;
+}

@@ -3,6 +3,7 @@ import "./Sidebar.css"
 import HomeIcon from '@mui/icons-material/Home';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import MovingIcon from '@mui/icons-material/Moving';
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
@@ -37,8 +38,10 @@ function Sidebar() {
         <h3 className='sidebarTitle'>Quick Menu</h3>
         <ul className='sidebarList'>
           <li className='sidebarListItem'>
-            <HomeIcon className='sidebarIcon' />
+           <Link to="/users" className='link_part'>
+           <HomeIcon className='sidebarIcon' />
             Users
+           </Link>
 
           </li>
           <li className='sidebarListItem'>
