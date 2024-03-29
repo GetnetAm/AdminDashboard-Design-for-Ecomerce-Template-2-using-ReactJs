@@ -45,8 +45,10 @@ function Sidebar() {
 
           </li>
           <li className='sidebarListItem'>
-            <TimelineIcon className='sidebarIcon'/>
+           <Link to="/productList" className='link_part'>
+           <TimelineIcon className='sidebarIcon'/>
             Porducts
+           </Link>
 
           </li>
           <li className='sidebarListItem'>

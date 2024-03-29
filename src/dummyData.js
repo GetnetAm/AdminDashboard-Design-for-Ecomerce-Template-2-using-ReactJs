@@ -61,7 +61,7 @@ export const userData = [
       id: 3,
       username: "Jon Snow",
       avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.co.uk%2FDOQAUS-Bluetooth-Headphones-Playtime-Microphone-Black%2Fdp%2FB07Q1YXVWH&psig=AOvVaw0-BqcDgNcs9s7osSKUFPtm&ust=1711664627798000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjIlOO9lYUDFQAAAAAdAAAAABAE",
       email: "jon@gmail.com",
       status: "active",
       transaction: "$120.00",
@@ -70,7 +70,7 @@ export const userData = [
       id: 4,
       username: "Jon Snow",
       avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        <img src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"  alt=""/>,
       email: "jon@gmail.com",
       status: "active",
       transaction: "$120.00",
